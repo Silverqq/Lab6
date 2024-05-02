@@ -13,7 +13,7 @@ abstract class Car : Transport
 {
     public override string GetTransportInfo()
     {
-        return $"A car with a load capacity of {LoadCapacity} can travel a distance of {Range}";
+        return $"Машина с грузоподъемностью {LoadCapacity} может путешествовать на расстоянии {Range}";
     }
 }
 
@@ -21,7 +21,7 @@ abstract class Airplane : Transport
 {
     public override string GetTransportInfo()
     {
-        return $"An airplane with a load capacity of {LoadCapacity} can fly a distance of {Range}";
+        return $"Самолет с грузопдъемностью {LoadCapacity} может лететь на расстоянии {Range}";
     }
 }
 
@@ -29,7 +29,7 @@ abstract class Ship : Transport
 {
     public override string GetTransportInfo()
     {
-        return $"A ship with a load capacity of {LoadCapacity} can sail a distance of {Range}";
+        return $"Корабль с грузопдъемностью {LoadCapacity} может плыть на расстоянии {Range}";
     }
 }
 
